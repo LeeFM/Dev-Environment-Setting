@@ -40,5 +40,6 @@ pod setup
 
 * Markdown 編輯器 -  [Typora](https://typora.io/)
 * Terminal -  [iTerm](https://www.iterm2.com/) ＋ [oh-my-zsh](http://ohmyz.sh/) 
-* others -   [SourceTree](https://www.sourcetreeapp.com/)  ,  [Fork](https://git-fork.com/) ,  [Postman](https://www.getpostman.com/) ,  [The Unarchiver](https://theunarchiver.com/) ,   [Open In Terminal](https://github.com/Ji4n1ng/OpenInTerminal) 
+* others -   [SourceTree](https://www.sourcetreeapp.com/)  ,  [Fork](https://git-fork.com/) ,  [Postman](https://www.getpostman.com/) ,  [The Unarchiver](https://theunarchiver.com/) ,   [Open In Terminal](https://github.com/Ji4n1ng/OpenInTerminal) ,  [Go2Shell](https://apps.apple.com/tw/app/go2shell/id445770608?mt=12)
+* 通訊軟體 -  [Franz](https://meetfranz.com)
 
