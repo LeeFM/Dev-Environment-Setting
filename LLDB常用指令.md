@@ -24,7 +24,16 @@ error: 1 errors parsing expression
 
 #### image lookup -a / -name
 
-#### breakpoint set --one-shot true --name "-[Class method:]" -c " i > 0 "
+#### breakpoint
+
+```
+breakpoint set --one-shot true --name "-[Class method:]" -c " i > 0 "
+-[UIControl sendAction:to:forEvent:]
+-[UIViewController viewDidLoad:]
+-[UIView initWithFrame:]
+
+Global BreakPoint -> Add Exception Breakpoint manually
+```
 
 #### 列出UI圖層
 
