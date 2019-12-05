@@ -31,6 +31,7 @@ breakpoint set --one-shot true --name "-[Class method:]" -c " i > 0 "
 -[UIControl sendAction:to:forEvent:]
 -[UIViewController viewDidLoad:]
 -[UIView initWithFrame:]
++[NSObject alloc] -c '(BOOL)[(id)$arg1 isKindOfClass:[CustomVC class]]'
 
 Global BreakPoint -> Add Exception Breakpoint manually
 ```
