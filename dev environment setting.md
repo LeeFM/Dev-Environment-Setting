@@ -73,6 +73,8 @@ set laststatus=2
 
 * 通訊軟體 -  [Franz](https://meetfranz.com)
 
+* Debug - [FLEX](https://github.com/Flipboard/FLEX) , [simsim](https://github.com/dsmelov/simsim)
+
 * QuickLook- add QuickLook file to 
 
   ```
