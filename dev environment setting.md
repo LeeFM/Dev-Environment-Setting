@@ -75,6 +75,8 @@ set laststatus=2
 
 * Debug - [FLEX](https://github.com/Flipboard/FLEX) , [simsim](https://github.com/dsmelov/simsim)
 
+* UML - [OmniGraffle](https://www.omnigroup.com/omnigraffle/)
+
 * QuickLook- add QuickLook file to 
 
   ```
