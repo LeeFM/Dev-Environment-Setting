@@ -69,6 +69,7 @@ Global BreakPoint -> Add Exception Breakpoint manually
 
 ```
 (lldb) e id $vc = [UIViewController new]
+(lldb) e id $vc = (id)[NSClassFromString(@"TheClass") new]
 (lldb) e (void)[[$vc view] setBackgroundColor:[UIColor yellowColor]]
 (lldb) e (void)[$vc setTitle:@"Yay!"]
 (lldb) e (void)[$nvc pushViewContoller:$vc animated:YES]
