@@ -112,5 +112,8 @@ Watchpoint created: Watchpoint 3: addr = 0x7fa554231340 size = 8 state = enabled
     new value: 0x0000000000000000
     
 (lldb) watchpoint set expression 0x7fee8d5bbf60
+(lldb) watchpoint modify -c '(a=100)'
+(lldb) watchpoint list
+(lldb) bt
 ```
 
