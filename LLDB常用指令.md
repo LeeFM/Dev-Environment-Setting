@@ -28,11 +28,14 @@ error: 1 errors parsing expression
 
 ```
 breakpoint set --one-shot true --name "-[Class method:]" -c " i > 0 "
+breakpoint set -r “setText:” -c ‘(BOOL)[*(int*)($esp + 12) isEqual:@”— points”]’
 -[UIControl sendAction:to:forEvent:]
+breakpoint set -r “UIControl sendAction:to:forEvent:”
 -[UIViewController viewDidLoad:]
 -[UIView initWithFrame:]
 +[NSObject alloc] -c '(BOOL)[(id)$arg1 isKindOfClass:[CustomVC class]]'
 
+breakpoint set -r “didSelectRow”
 breakpoint set -r . -s <PRODUCT_NAME>
 
 Global BreakPoint -> Add Exception Breakpoint manually
