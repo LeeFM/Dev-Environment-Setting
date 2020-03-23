@@ -63,6 +63,22 @@ set paste
 set laststatus=2
 ```
 
+#### zsh autocomplete
+
+```sh
+cd ~/.oh-my-zsh/custom/plugins/
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+git clone https://github.com/zsh-users/zsh-autosuggestions.git
+vi ~/.zshrc
+在文件中找 :/plugins=(git)
+添加zsh-autosuggestions變成
+plugins=(
+	git
+	zsh-autosuggestions
+)
+source ~/.zshrc  
+```
+
 #### Tools
 
 * Markdown 編輯器 -  [Typora](https://typora.io/)
