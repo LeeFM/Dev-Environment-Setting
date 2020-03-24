@@ -70,7 +70,7 @@ cd ~/.oh-my-zsh/custom/plugins/
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 git clone https://github.com/zsh-users/zsh-autosuggestions.git
 vi ~/.zshrc
-在文件中找 :/plugins=(git)
+在文件中找 plugins=(git)
 添加zsh-autosuggestions變成
 plugins=(
 	git
@@ -99,5 +99,26 @@ source ~/.zshrc
   ~/Library/QuickLook/
   ```
 
-  
+
+#### 常用指令
+
+```swift
+// FLEX
+[[FLEXManager sharedManager] showExplorer];
+
+#ifdef DEBUG
+#import "FLEXManager.h"
+#endif
+
+pod 'FLEX', :configurations => ['Debug']
+
+// 修改pods
+pod "MILib", :path => "../MILib"
+
+// Xcode default version
+sudo xcode-select --switch /Applications/Xcode10.3.app
+
+// 刪除tags
+git tag -l | xargs git tag -d 
+```
 
