@@ -1,7 +1,11 @@
-#### Xcode file templates directory
+#### Xcode file directory
 
-```
+```objective-c
+// Templates
 mkdir -p ~/Library/Developer/Xcode/Templates/File\ Templates/Custom
+
+// CodeSnippets
+~/Library/Developer/Xcode/UserData/CodeSnippets
 ```
 
 #### [Homebrew](https://brew.sh/)
