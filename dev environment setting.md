@@ -119,10 +119,36 @@ pod 'FLEX', :configurations => ['Debug']
 // 修改pods
 pod "MILib", :path => "../MILib"
 
+pod "TradeFoundation", :git => "git@gitlab01.mitake.com.tw:RD1/TradeFoundation.git", :branch => '問題/92868_期貨下單畫面流動性風險欄位跑版'
+
 // Xcode default version
 sudo xcode-select --switch /Applications/Xcode10.3.app
 
 // 刪除tags
 git tag -l | xargs git tag -d 
 ```
+
+#### Shortcuts
+
+搜尋：cmd+shift+F
+
+​			cmd+shift+O
+
+文件變數方法縮圖：ctl + 6
+
+File搜尋：cmd + 1 >> cmd + opt +j
+
+IDE縮放：
+
+單視窗 cmd + enter
+
+雙視窗 cmd + opt + enter 
+
+ ctl + opt + cmd + enter
+
+Debug area：cmd + shift +Y
+
+兩側：cmd + 0
+
+cmd + shift + 0 
 
