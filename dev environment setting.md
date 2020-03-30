@@ -130,25 +130,15 @@ git tag -l | xargs git tag -d
 
 #### Shortcuts
 
-搜尋：cmd+shift+F
+* 搜尋：**<u>cmd + shift + F</u>**  、 **<u>cmd+shift+O</u>**
 
-​			cmd+shift+O
+* 文件變數方法縮圖：**<u>ctl + 6</u>**
 
-文件變數方法縮圖：ctl + 6
+* File搜尋：<u>**cmd + 1 >> cmd + opt +j**</u>
 
-File搜尋：cmd + 1 >> cmd + opt +j
+* IDE縮放：**<u>單視窗 cmd + enter</u>** ； **<u>雙視窗 cmd + opt + enter</u>** 、 **<u>ctl + opt + cmd + enter (Xcode 11)</u>**
 
-IDE縮放：
+* Debug area：**<u>cmd + shift + Y</u>**
 
-單視窗 cmd + enter
-
-雙視窗 cmd + opt + enter 
-
- ctl + opt + cmd + enter
-
-Debug area：cmd + shift +Y
-
-兩側：cmd + 0
-
-cmd + shift + 0 
+* 兩側：**<u>cmd + 0</u>** 、**<u>cmd + shift + 0</u>** 
 
