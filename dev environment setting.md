@@ -126,6 +126,9 @@ sudo xcode-select --switch /Applications/Xcode10.3.app
 
 // 刪除tags
 git tag -l | xargs git tag -d 
+
+// 刪除Xcode模擬器
+xcrun simctl erase all
 ```
 
 #### Shortcuts
