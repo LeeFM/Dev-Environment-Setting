@@ -69,7 +69,7 @@ set laststatus=2
 
 #### zsh autocomplete
 
-```sh
+```shell
 cd ~/.oh-my-zsh/custom/plugins/
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 git clone https://github.com/zsh-users/zsh-autosuggestions.git
@@ -81,6 +81,9 @@ plugins=(
 	zsh-autosuggestions
 )
 source ~/.zshrc  
+
+# 歷史記錄位置
+~/.zsh_history
 ```
 
 #### Tools
