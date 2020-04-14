@@ -152,7 +152,7 @@ xcrun simctl erase all
 
     assistant editor : **<u>單視窗 cmd + enter</u>** ； **<u>雙視窗 ctl + opt + cmd + enter</u>**
 
-    new editor : **<u>單視窗 ctl + opt + cmd + W</u>** ； **<u>雙視窗 opt + cmd + <</u>**  *or*  **<u>opt + left click</u>**
+    new editor : **<u>單視窗 ctl + opt + cmd + W</u>** ； **<u>雙視窗 opt + cmd + <</u>**  *or*  **<u>opt + left click</u>**  *or*  **<u>ctl + opt + cmd + T</u>**
 
 * Debug area：**<u>cmd + shift + Y</u>**
 
