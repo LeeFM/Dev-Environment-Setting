@@ -88,19 +88,21 @@ source ~/.zshrc
 
 #### Tools
 
-* Markdown 編輯器 -  [Typora](https://typora.io/)
+* Markdown 編輯器 -  [Typora](https://typora.io/) , [HackMD](https://hackmd.io)
 
 * Terminal -  [iTerm](https://www.iterm2.com/) ＋ [oh-my-zsh](http://ohmyz.sh/) 
 
 * others -   [SourceTree](https://www.sourcetreeapp.com/)  ,  [Fork](https://git-fork.com/) ,  [Postman](https://www.getpostman.com/) ,  [The Unarchiver](https://theunarchiver.com/) ,   [Open In Terminal](https://github.com/Ji4n1ng/OpenInTerminal) ,  [Go2Shell](https://apps.apple.com/tw/app/go2shell/id445770608?mt=12)
 
-* 通訊軟體 -  [Franz](https://meetfranz.com)
+* 心智圖 - [MindNode](https://mindnode.com) , [Xmind](https://www.xmind.net)
+
+* 通訊軟體 - [Telegram](https://telegram.org) , [Slack](https://slack.com/intl/en-tw/) ,  [Franz](https://meetfranz.com)
 
 * Debug - [FLEX](https://github.com/Flipboard/FLEX) , [simsim](https://github.com/dsmelov/simsim)
 
 * UML - [OmniGraffle](https://www.omnigroup.com/omnigraffle/), [Drafter](https://github.com/L-Zephyr/Drafter), [swift-auto-diagram](https://github.com/yoshimkd/swift-auto-diagram), [draw.io](https://www.draw.io)
 
-* 螢幕擷取工具 - [Xnip](https://apps.apple.com/tw/app/xnip-screenshot-annotation/id1221250572?mt=12)
+* 螢幕擷取工具 - [Xnip](https://apps.apple.com/tw/app/xnip-screenshot-annotation/id1221250572?mt=12) , [Snip](https://snip.qq.com)
 
 * QuickLook- add QuickLook file to 
 
