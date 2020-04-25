@@ -100,6 +100,8 @@ source ~/.zshrc
 
 * UML - [OmniGraffle](https://www.omnigroup.com/omnigraffle/), [Drafter](https://github.com/L-Zephyr/Drafter), [swift-auto-diagram](https://github.com/yoshimkd/swift-auto-diagram), [draw.io](https://www.draw.io)
 
+* 螢幕擷取工具 - [Xnip](https://apps.apple.com/tw/app/xnip-screenshot-annotation/id1221250572?mt=12)
+
 * QuickLook- add QuickLook file to 
 
   ```
