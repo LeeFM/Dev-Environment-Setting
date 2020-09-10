@@ -106,6 +106,8 @@ source ~/.zshrc
 
 * 螢幕擷取工具 - [Xnip](https://apps.apple.com/tw/app/xnip-screenshot-annotation/id1221250572?mt=12) , [Snip](https://snip.qq.com)
 
+* 改鍵工具 - [Karabiner](https://karabiner-elements.pqrs.org)
+
 * QuickLook- add QuickLook file to 
 
   ```
