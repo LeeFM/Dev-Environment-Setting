@@ -118,15 +118,6 @@ source ~/.zshrc
 #### 常用指令
 
 ```swift
-// FLEX
-[[FLEXManager sharedManager] showExplorer];
-
-#ifdef DEBUG
-#import "FLEXManager.h"
-#endif
-
-pod 'FLEX', :configurations => ['Debug']
-
 // 修改pods
 pod "MILib", :path => "../MILib"
 
