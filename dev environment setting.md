@@ -150,18 +150,6 @@ xcrun simctl erase all
 
 * File搜尋：<u>**cmd + 1 >> cmd + opt +j**</u>
 
-* IDE縮放：
-
-  * *Xcode 10*
-
-    assistant editor : **<u>單視窗 cmd + enter</u>** ； **<u>雙視窗 cmd + opt + enter</u>** 
-
-  * *Xcode 11* 
-
-    assistant editor : **<u>單視窗 cmd + enter</u>** ； **<u>雙視窗 ctl + opt + cmd + enter</u>**
-
-    new editor : **<u>單視窗 ctl + opt + cmd + W</u>** ； **<u>雙視窗 opt + cmd + <</u>**  *or*  **<u>opt + left click</u>**  *or*  **<u>ctl + opt + cmd + T</u>**
-
 * Debug area：**<u>cmd + shift + Y</u>**
 
 * 兩側：**<u>cmd + 0</u>** 、**<u>cmd + shift + 0</u>** 
