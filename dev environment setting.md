@@ -108,6 +108,8 @@ source ~/.zshrc
 
 * 改鍵工具 - [Karabiner](https://karabiner-elements.pqrs.org)
 
+* HTML Debug工具 - [jsfiddle](https://jsfiddle.net)
+
 * QuickLook- add QuickLook file to 
 
   ```
