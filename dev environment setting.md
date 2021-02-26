@@ -110,6 +110,8 @@ source ~/.zshrc
 
 * HTML Debug工具 - [jsfiddle](https://jsfiddle.net)
 
+* PushNotification測試工具 - [PushNotifications](https://github.com/onmyway133/PushNotifications/releases/tag/1.7.7)
+
 * QuickLook- add QuickLook file to 
 
   ```
