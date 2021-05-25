@@ -94,7 +94,7 @@ source ~/.zshrc
 
 * others -   [SourceTree](https://www.sourcetreeapp.com/)  ,  [Fork](https://git-fork.com/) ,  [Postman](https://www.getpostman.com/) ,  [The Unarchiver](https://theunarchiver.com/) ,   [Open In Terminal](https://github.com/Ji4n1ng/OpenInTerminal) ,  [Go2Shell](https://apps.apple.com/tw/app/go2shell/id445770608?mt=12) , [Sublime Text](https://www.sublimetext.com) , [DB SQLite](https://sqlitebrowser.org)
 
-* 抓包工具 - [Proxyman](https://proxyman.io)
+* 抓包工具 - [Proxyman](https://proxyman.io) , [Wireshark](https://www.wireshark.org)
 
 * 心智圖 - [MindNode](https://mindnode.com) , [Xmind](https://www.xmind.net)
 
