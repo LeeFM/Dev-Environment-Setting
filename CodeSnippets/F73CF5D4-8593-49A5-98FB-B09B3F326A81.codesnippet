@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>doc</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    /**
+     This method sum two double numbers and returns.
+
+     Here is the discussion. This methods adds two double and return the optional Double.
+
+
+     - parameter number1: First Double Number.
+     - parameter number2: Second Double Number.
+     - returns: The sum of two double numbers.
+
+     # Notes: #
+     1. Parameters must be **double** type
+     2. Handle return type because it is optional.
+
+     # Example #
+    ```
+     if let sum = self.add(number1: 23, number2: 34) {
+      print(sum)
+     }
+     ```
+    */</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F73CF5D4-8593-49A5-98FB-B09B3F326A81</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>My Documentation</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
