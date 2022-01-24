@@ -23,7 +23,7 @@ brew install git
 #### [CocoaPods](https://cocoapods.org/)
 
 ```
-gem install cocoapods 
+gem install cocoapods
 pod setup
 ```
 
@@ -88,9 +88,9 @@ source ~/.zshrc
 
 #### Tools
 
-* Markdown 編輯器 -  [Typora](https://typora.io/) , [HackMD](https://hackmd.io)
+* Markdown 編輯器 - [HackMD](https://hackmd.io) , [Dillinger](https://dillinger.io)
 
-* Terminal -  [iTerm](https://www.iterm2.com/) ＋ [oh-my-zsh](http://ohmyz.sh/) 
+* Terminal -  [iTerm](https://www.iterm2.com/) ＋ [oh-my-zsh](http://ohmyz.sh/)
 
 * others -   [SourceTree](https://www.sourcetreeapp.com/)  ,  [Fork](https://git-fork.com/) ,  [Postman](https://www.getpostman.com/) ,  [The Unarchiver](https://theunarchiver.com/) ,   [Open In Terminal](https://github.com/Ji4n1ng/OpenInTerminal) ,  [Go2Shell](https://apps.apple.com/tw/app/go2shell/id445770608?mt=12) , [Sublime Text](https://www.sublimetext.com) , [DB SQLite](https://sqlitebrowser.org)
 
@@ -112,7 +112,7 @@ source ~/.zshrc
 
 * PushNotification測試工具 - [PushNotifications](https://github.com/onmyway133/PushNotifications/releases/tag/1.7.7)
 
-* QuickLook- add QuickLook file to 
+* QuickLook- add QuickLook file to
 
   ```
   ~/Library/QuickLook/
@@ -131,7 +131,7 @@ pod "TradeFoundation", :git => "git@gitlab01.mitake.com.tw:RD1/TradeFoundation.g
 sudo xcode-select --switch /Applications/Xcode10.3.app
 
 // 刪除tags
-git tag -l | xargs git tag -d 
+git tag -l | xargs git tag -d
 
 // 刪除Xcode模擬器
 xcrun simctl erase all
@@ -147,5 +147,4 @@ xcrun simctl erase all
 
 * Debug area：**<u>cmd + shift + Y</u>**
 
-* 兩側：**<u>cmd + 0</u>** 、**<u>cmd + shift + 0</u>** 
-
+* 兩側：**<u>cmd + 0</u>** 、**<u>cmd + shift + 0</u>**
