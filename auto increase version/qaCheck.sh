@@ -9,7 +9,6 @@ DIR="$(cd "$(dirname "$0")" && pwd)"
 echo $DIR
 cd $DIR/TouchStock_$id
 updateDate
-plistCheckKey
 versionCheck
 }
 
