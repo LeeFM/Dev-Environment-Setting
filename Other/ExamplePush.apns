@@ -1,0 +1,14 @@
+{
+    "Simulator Target Bundle": "tw.com.mitake.touchstock.mtk.test",
+    "aps": {
+        "alert": "圖片推播測試",
+        "badge": 1,
+        "sound": "default",
+            "mutable-content": 1
+    },
+    "msgid": "0126142718133392450000007",
+    "msgtype": "02",
+    "ctime": "20220113134405",
+    "stkid": "2330",
+    "imgurl": "https://images-na.ssl-images-amazon.com/images/I/51f-7KjjFeL._SX317_BO1,204,203,200_.jpg"
+}
