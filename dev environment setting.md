@@ -88,7 +88,7 @@ source ~/.zshrc
 
 #### Tools
 
-* Markdown 編輯器 - [HackMD](https://hackmd.io) , [Dillinger](https://dillinger.io)
+* Markdown 編輯器 - [HackMD](https://hackmd.io) , [Visual Studio Code](https://code.visualstudio.com) + [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 
 * Terminal -  [iTerm](https://www.iterm2.com/) ＋ [oh-my-zsh](http://ohmyz.sh/)
 
