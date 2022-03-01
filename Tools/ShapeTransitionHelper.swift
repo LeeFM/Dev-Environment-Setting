@@ -96,8 +96,10 @@ class ShapeTransitionHelper {
             return state.end
         case .move(let progress):
             
-            if lowerbound...upperbound ~= progress {
-                let ratio = (progress - lowerbound) / (upperbound - lowerbound)
+            let checkedProgress = min(max(lowerbound, progress), upperbound)
+            
+            if lowerbound...upperbound ~= checkedProgress {
+                let ratio = (checkedProgress - lowerbound) / (upperbound - lowerbound)
                 
                 if state.begin > state.end {
                     // 遞減
