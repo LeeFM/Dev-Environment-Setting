@@ -122,7 +122,7 @@ source ~/.zshrc
   ~/Library/QuickLook/
   ```
 
-* 擴充Xcode支援的OS版本 - [iOS-DeviceSupport](https://github.com/iGhibli/iOS-DeviceSupport)
+* 擴充Xcode支援的OS版本 - [iGhibli](https://github.com/iGhibli/iOS-DeviceSupport) , [filsv](https://github.com/filsv/iPhoneOSDeviceSupport)
 
 #### 常用指令
 
