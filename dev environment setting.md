@@ -6,6 +6,10 @@ mkdir -p ~/Library/Developer/Xcode/Templates/File\ Templates/Custom
 
 // CodeSnippets
 ~/Library/Developer/Xcode/UserData/CodeSnippets
+
+// fix unsupported OS version
+Xcode右鍵顯示套件內容
+Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport
 ```
 
 #### [Homebrew](https://brew.sh/)
@@ -118,6 +122,7 @@ source ~/.zshrc
   ~/Library/QuickLook/
   ```
 
+* 擴充Xcode支援的OS版本 - [iOS-DeviceSupport](https://github.com/iGhibli/iOS-DeviceSupport)
 
 #### 常用指令
 
