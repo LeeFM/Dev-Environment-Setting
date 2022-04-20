@@ -124,6 +124,8 @@ source ~/.zshrc
 
 * 擴充Xcode支援的OS版本 - [iGhibli](https://github.com/iGhibli/iOS-DeviceSupport) , [filsv](https://github.com/filsv/iPhoneOSDeviceSupport)
 
+* JSON轉Model工具 - [QuickType](https://quicktype.io)
+
 #### 常用指令
 
 ```swift
