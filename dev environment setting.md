@@ -31,6 +31,15 @@ gem install cocoapods
 pod setup
 ```
 
+#### [ImageMagick]()
+
+```
+brew install imagemagick
+
+convert +append a.jpg b.jpg result.jpg
+
+```
+
 #### git alias
 
 ```
