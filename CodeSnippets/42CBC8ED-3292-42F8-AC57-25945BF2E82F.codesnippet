@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>fl_i</string>
+	<string>lpp</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#ifdef DEBUG
-#import "FLEXManager.h"
-#endif</string>
+	<string>pod "TCAPI", :path =&gt; "~/Desktop/MITAKE/Pods/TCAPI"</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1FB8DD74-D098-47E3-BA9B-31AD21454ADD</string>
+	<string>42CBC8ED-3292-42F8-AC57-25945BF2E82F</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Ruby</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>FLEX Import</string>
+	<string>Local Pod Path</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

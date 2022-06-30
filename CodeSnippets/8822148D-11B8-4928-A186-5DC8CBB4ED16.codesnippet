@@ -3,19 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>fl_m</string>
+	<string>wgt</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[[FLEXManager sharedManager] showExplorer];</string>
+	<string>[OpenHandler handleOpenURL:[NSURL URLWithString:@"mitake://?MitakeAction=SP&amp;STOCKID=2330"]];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8EF4A11D-14D3-4780-8597-A747CD34EADA</string>
+	<string>8822148D-11B8-4928-A186-5DC8CBB4ED16</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>FLEX method</string>
+	<string>Widget Tap</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
