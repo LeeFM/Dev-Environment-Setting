@@ -151,6 +151,12 @@ git tag -l | xargs git tag -d
 
 // 刪除Xcode模擬器
 xcrun simctl erase all
+
+// 生成 Gitlab SSH Key
+ssh-keygen -o -f ~/.ssh/id_rsa
+
+// 複製 Gitlab SSH Key
+pbcopy < ~/.ssh/id_rsa.pub
 ```
 
 #### Shortcuts
