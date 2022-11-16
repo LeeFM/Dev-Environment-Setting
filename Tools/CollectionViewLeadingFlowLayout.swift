@@ -13,10 +13,12 @@ class CollectionViewLeadingFlowLayout: UICollectionViewFlowLayout {
     override func layoutAttributesForElements(in rect: CGRect) -> [UICollectionViewLayoutAttributes]? {
         let attributes = super.layoutAttributesForElements(in: rect)
         
+        let cellAttributes = attributes?.filter{ $0.representedElementKind != "UICollectionElementKindSectionHeader" }
+        
         var leftMargin = sectionInset.left
         var maxY: CGFloat = -1.0
         
-        attributes?.forEach { layoutAttribute in
+        cellAttributes?.forEach { layoutAttribute in
             if layoutAttribute.frame.origin.y >= maxY {
                 leftMargin = sectionInset.left
             }
