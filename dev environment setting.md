@@ -134,6 +134,10 @@ source ~/.zshrc
 * 擴充Xcode支援的OS版本 - [iGhibli](https://github.com/iGhibli/iOS-DeviceSupport) , [filsv](https://github.com/filsv/iPhoneOSDeviceSupport)
 
 * JSON轉Model工具 - [QuickType](https://quicktype.io)
+  
+* [JSON Formatter](https://jsonformatter.curiousconcept.com)
+
+* [Unicode轉中文](https://www.chineseconverter.com/zh-tw/convert/unicode)
 
 #### 常用指令
 
