@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="MFSearchCell" customModule="TouchStock_MTK" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="427" height="157"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="427" height="157"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w1M-se-GGC">
+                        <rect key="frame" x="40" y="0.0" width="387" height="70.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ed-MP-LnU">
+                        <rect key="frame" x="15" y="12" width="22.5" height="23"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="5ed-MP-LnU" secondAttribute="height" multiplier="1:1" id="tEO-nz-iwz"/>
+                        </constraints>
+                        <state key="normal" image="bk_icon_add_20_n.png"/>
+                        <connections>
+                            <action selector="addButtonTapped" destination="KGk-i7-Jjw" eventType="touchUpInside" id="s8n-NH-ugG"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="群益大安" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zzC-T8-8eJ">
+                        <rect key="frame" x="54.5" y="12" width="69.5" height="23"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hao-Vp-IZn">
+                        <rect key="frame" x="210" y="148" width="7" height="7"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="7" id="XmJ-cO-4ux"/>
+                            <constraint firstAttribute="width" secondItem="Hao-Vp-IZn" secondAttribute="height" multiplier="1:1" id="ZAL-q5-Ss6"/>
+                        </constraints>
+                        <state key="normal" image="bk_icon_arrow_down_solid_7_n.png"/>
+                    </button>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sM-JU-QNa">
+                        <rect key="frame" x="389.5" y="12" width="22.5" height="23"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="0sM-JU-QNa" secondAttribute="height" multiplier="1:1" id="VO2-ca-EQd"/>
+                        </constraints>
+                        <state key="normal" image="bk_icon_arrow_right_hollow_20_n.png"/>
+                    </button>
+                    <stackView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ryA-1U-dZB">
+                        <rect key="frame" x="40" y="50" width="347" height="20.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RRH-Ii-NE3">
+                                <rect key="frame" x="0.0" y="0.0" width="347" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="0sM-JU-QNa" secondAttribute="trailing" multiplier="375/362" id="0Y2-z6-mlh"/>
+                    <constraint firstItem="w1M-se-GGC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Bhy-DX-tEG"/>
+                    <constraint firstItem="zzC-T8-8eJ" firstAttribute="top" secondItem="5ed-MP-LnU" secondAttribute="top" id="DZJ-Vw-hWt"/>
+                    <constraint firstItem="Hao-Vp-IZn" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="HX4-jH-sGT"/>
+                    <constraint firstItem="zzC-T8-8eJ" firstAttribute="bottom" secondItem="5ed-MP-LnU" secondAttribute="bottom" id="IT2-ei-fVV"/>
+                    <constraint firstItem="Hao-Vp-IZn" firstAttribute="top" relation="greaterThanOrEqual" secondItem="ryA-1U-dZB" secondAttribute="bottom" id="Pvh-K1-l6i"/>
+                    <constraint firstItem="ryA-1U-dZB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="50" id="Sg6-a1-WvR"/>
+                    <constraint firstItem="zzC-T8-8eJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="trailing" multiplier="48/375" id="TCC-JR-8qB"/>
+                    <constraint firstItem="w1M-se-GGC" firstAttribute="leading" secondItem="ryA-1U-dZB" secondAttribute="leading" id="X3d-0e-NSJ"/>
+                    <constraint firstItem="w1M-se-GGC" firstAttribute="bottom" secondItem="ryA-1U-dZB" secondAttribute="bottom" id="ZkZ-H6-LVr"/>
+                    <constraint firstItem="5ed-MP-LnU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="trailing" multiplier="13/375" id="aWz-JY-tju"/>
+                    <constraint firstItem="0sM-JU-QNa" firstAttribute="centerY" secondItem="5ed-MP-LnU" secondAttribute="centerY" id="fEk-ah-8Uz"/>
+                    <constraint firstItem="5ed-MP-LnU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="nUw-3c-1kE"/>
+                    <constraint firstItem="ryA-1U-dZB" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="o4t-73-dyc"/>
+                    <constraint firstAttribute="trailing" secondItem="w1M-se-GGC" secondAttribute="trailing" id="qij-td-LvN"/>
+                    <constraint firstAttribute="bottom" secondItem="Hao-Vp-IZn" secondAttribute="bottom" constant="2" id="xtZ-mL-Du3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" red="0.066666666666666666" green="0.078431372549019607" blue="0.086274509803921567" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="ryA-1U-dZB" firstAttribute="width" secondItem="KGk-i7-Jjw" secondAttribute="width" multiplier="305/375" id="GrV-tJ-q6h"/>
+                <constraint firstItem="5ed-MP-LnU" firstAttribute="width" secondItem="KGk-i7-Jjw" secondAttribute="width" multiplier="20/375" id="Jpw-Qs-ObM"/>
+                <constraint firstItem="0sM-JU-QNa" firstAttribute="width" secondItem="KGk-i7-Jjw" secondAttribute="width" multiplier="20/375" id="ao4-FC-3gO"/>
+            </constraints>
+            <connections>
+                <outlet property="addButton" destination="5ed-MP-LnU" id="i6d-XU-Wcf"/>
+                <outlet property="addButtonTopAnchor" destination="nUw-3c-1kE" id="Nvp-he-mCC"/>
+                <outlet property="branchName" destination="zzC-T8-8eJ" id="bdc-Ol-dK7"/>
+                <outlet property="expandButton" destination="Hao-Vp-IZn" id="UhF-Fe-EjZ"/>
+                <outlet property="expandButtonBottomAnchor" destination="xtZ-mL-Du3" id="CAp-WZ-F74"/>
+                <outlet property="expandButtonHeightAnchor" destination="XmJ-cO-4ux" id="6uz-19-Svk"/>
+                <outlet property="expandTouchArea" destination="w1M-se-GGC" id="MAv-eH-SRl"/>
+                <outlet property="stackView" destination="ryA-1U-dZB" id="Zim-Up-Uva"/>
+                <outlet property="stackViewBottomAnchor" destination="Pvh-K1-l6i" id="1eJ-bx-2me"/>
+                <outlet property="stackViewTopAnchor" destination="Sg6-a1-WvR" id="P9M-ZU-jC3"/>
+            </connections>
+            <point key="canvasLocation" x="209.42028985507247" y="167.74553571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bk_icon_add_20_n.png" width="20" height="20"/>
+        <image name="bk_icon_arrow_down_solid_7_n.png" width="7" height="7"/>
+        <image name="bk_icon_arrow_right_hollow_20_n.png" width="20" height="20"/>
+    </resources>
+</document>
