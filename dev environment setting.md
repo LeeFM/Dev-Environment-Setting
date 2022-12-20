@@ -153,6 +153,9 @@ sudo xcode-select --switch /Applications/Xcode10.3.app
 // 刪除tags
 git tag -l | xargs git tag -d
 
+// 瀏覽歷史紀錄
+git reflog --no-abbrev
+
 // 刪除Xcode模擬器
 xcrun simctl erase all
 
