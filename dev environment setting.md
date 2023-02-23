@@ -133,7 +133,7 @@ source ~/.zshrc
 
 * 擴充Xcode支援的OS版本 - [iGhibli](https://github.com/iGhibli/iOS-DeviceSupport) , [filsv](https://github.com/filsv/iPhoneOSDeviceSupport)
 
-* JSON轉Model工具 - [QuickType](https://quicktype.io)
+* JSON轉Model工具 - [ChatGPT](https://openai.com/blog/chatgpt/)
   
 * [JSON Formatter](https://jsonformatter.curiousconcept.com)
 
