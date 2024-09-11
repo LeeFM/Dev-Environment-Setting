@@ -1,0 +1,20 @@
+{
+    "Simulator Target Bundle": "tw.com.mitake.touchstock.mtk.test",
+    "aps": {
+        "alert": "<a href=\"#2303\">#2303</a> 幹",
+        "badge": 1,
+        "sound": "default",
+        "mutable-content": 1,
+        "r":"20000500300000012",
+        "rt":"2",
+        "f":"0",
+        "s": "110006976",
+        "w":"ggggggggg",
+        "t":"0",
+        "d":"20220207185045",
+        "c":"幹",
+        "msgtype": "IM"
+    },
+    "msgid": "3205805000028313032",
+    "msgtype": "IM"
+}

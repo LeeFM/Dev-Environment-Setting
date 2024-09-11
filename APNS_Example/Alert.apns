@@ -1,0 +1,10 @@
+{
+    "Simulator Target Bundle": "tw.com.mitake.touchstock.mtk.test",
+    "aps": {
+        "alert": "Testing.. (23)", "badge": 1,
+        "sound": "default"
+    },
+    "msgid": "0126142718133392450000007", "msgtype": "02",
+    "ctime": "20190806134405",
+    "stkid": "2303"
+}
