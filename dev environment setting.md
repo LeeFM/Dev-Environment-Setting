@@ -138,6 +138,8 @@ source ~/.zshrc
 * [JSON Formatter](https://jsonformatter.curiousconcept.com)
 
 * [Unicode轉中文](https://www.chineseconverter.com/zh-tw/convert/unicode)
+  
+* Build settings reference 文件 - Xcode -> Help -> Xcode Help -> Show topics -> Reference -> Build settings
 
 #### 常用指令
 
